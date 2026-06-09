@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>YouTube</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <i class="material-icons">view_headline</i>
+      <img src="https://www.vectorlogo.zone/logos/youtube/youtube-ar21.svg" alt="YouTube Logo">
+    </div>
+
+    <div class="searchbar">
+      <form class="search">
+        <input type="text" placeholder="Search">
+        <button type="button">
+          <i class="material-icons">search</i>
+        </button>
+      </form>
+      <i class="material-icons">keyboard_voice</i>
+    </div>
+
+    <div class="navigation-icons">
+      <i class="material-icons">video_call</i>
+      <i class="material-icons">apps</i>
+      <i class="material-icons">notifications</i>
+      <i class="material-icons">account_circle</i>
+    </div>
+  </div>
+
+  <div class="mainbody">
+    <div class="categories">
+      <div class="category-section">
+        <span class="category active">
+          <i class="material-icons">home</i>
+          Home
+        </span>
+        <span class="category">
+          <i class="material-icons">explore</i>
+          Explore
+        </span>
+        <span class="category">
+          <i class="material-icons">subscriptions</i>
+          Subscriptions
+        </span>
+      </div>
+
+      <div class="category-section">
+        <span class="category">
+          <i class="material-icons">video_library</i>
+          Library
+        </span>
+        <span class="category">
+          <i class="material-icons">history</i>
+          History
+        </span>
+        <span class="category">
+          <i class="material-icons">videocam</i>
+          Your Videos
+        </span>
+        <span class="category">
+          <i class="material-icons">watch_later</i>
+          Watch Later
+        </span>
+        <span class="category">
+          <i class="material-icons">thumb_up</i>
+          Liked Videos
+        </span>
+        <span class="category">
+          <i class="material-icons">expand_more</i>
+          Show More
+        </span>
+      </div>
+
+      <div class="category-section">
+        <p class="category_heading">SUBSCRIPTIONS</p>
+         <span class="category">
+          <img src="https://yt3.googleusercontent.com/qf1GSNaEJ8nmYhTGq5z7wvdNeT7xl8mtvZENdOp_86uFGaVOJcAzo3Xdnrw5b7_dBusvdHbKo5c=s160-c-k-c0x00ffffff-no-rj" 
+          class="profile-pic" alt="vyrka">
+          vyrka
+         </span>
+        <span class="category">
+          <img src="https://yt3.ggpht.com/IkYhbAbSKvy-EzdsDQy61LG1jR9a3TDTdBt94AHaUnQusAUbkJYxhaVTQkBUXMa7V6YOE311Vg=s176-c-k-c0x00ffffff-no-rj-mo" 
+          class="profile-pic" alt="Zaio">
+          Zaio
+        </span>
+        <span class="category">
+          <img src="https://yt3.googleusercontent.com/pwombASY5CLB1IceFBpsuCgJxGBhp9WkU_ojYScojXZVNPfkO4nys5a8eW9MSWNhbWAepsH5=s176-c-k-c0x00ffffff-no-rj-mo" 
+          class="profile-pic" alt="Nasty C">
+          Nasty C
+        </span>
+        <span class="category">
+          <img src="https://yt3.googleusercontent.com/0QWhmFad2_Md9b4w4vNI9uBZuahM8z-yjb_ribuXYm0O4B7-aaRncInlJ591vt2lqFQhQRDm=s176-c-k-c0x00ffffff-no-rj-mo" 
+          class="profile-pic" alt="Blxckie">
+          Blxckie
+        </span>
+        <span class="category">
+          <img src="https://yt3.ggpht.com/-PtulUvAuaVV3-Wqix3BuogI8ql9c5braOWPScH1KKf0V0-DeSv-h2rZpi7K9K_kYpw33zH9=s176-c-k-c0x00ffffff-no-rj-mo" 
+          class="profile-pic" alt="Carwow">
+          Carwow
+        </span>
+      </div>
+
+      <div class="category-section">
+        <span class="category">
+          <i class="material-icons">settings</i>
+          Settings
+        </span>
+        <span class="category">
+          <i class="material-icons">history</i>
+          Report History
+        </span>
+        <span class="category">
+          <i class="material-icons">help</i>
+          Help
+        </span>
+        <span class="category">
+          <i class="material-icons">feedback</i>
+          Send Feedback
+        </span>
+      </div>
+
+      <div class="categories-footer">
+        <div class="footer-section">
+          <span>About</span>
+          <span>Press</span>
+          <span>Copyright</span>
+          <span>Contact Us</span>
+          <span>Creators</span>
+          <span>Advertise</span>
+          <span>Developers</span>
+        </div>
+
+        <div class="footer-section">
+          <span>Privacy</span>
+          <span>Terms</span>
+          <span>Policy & Safety</span>
+          <span>How YouTube works</span>
+          <span>Test new features</span>
+        </div>
+
+        <span class="copyright">
+          &copy; 2021 Zaio YouTube Clone
+        </span>
+      </div>
+    </div>
+
+    <div class="videos">
+      <div class="video-grid">
+
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video03.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic4.jpg" alt="Reacting to FX Alex G buying a new car">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video03.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/ytc/AIdro_mkbZgnxAJ8jDc1KThyuTmcrS8IjkpPXPRH4Um8QbzIvvY=s68-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="video-details">
+              <p>Reacting to FX Alex G buying a new car</p>
+              <div class="posted-by">
+                <span>Che</span>
+              </div>
+              <div class="views-date">
+                <span>1.3M Views</span>
+                <span>.</span>
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/Video0.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic2.png" alt="Stuck on an Island alone for 24 hours">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/Video0.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/nxYrc_1_2f77DoBadyxMTmv7ZpRZapHR5jbuYe7PlPd5cIRJxtNNEYyOC0ZsxaDyJJzXrnJiuDE=s68-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="video-details">
+              <p>Stuck on an Island alone for 24 hours
+              </p>
+              <div class="posted-by">
+                <span>MR Beast</span>
+              </div>
+              <div class="views-date">
+                <span>22m Views</span>
+                <span>.</span>
+                <span>1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video05.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic3.jpg" alt="Reacting to Hotshotaaron's blind date">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video05.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/ERbziNQhirEWXIn0vZ2B3-BvBbbf_fvJaHHMaZW6Evw0ZwgnVKma3yus2j_qu-5QcQb9Tj_UJw=s68-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="video-details">
+              <p>Reacting to Hotshotaaron's blind date</p>
+              <div class="posted-by">
+                <span>Domingos</span>
+              </div>
+              <div class="views-date">
+                <span>37k Views</span>
+                <span>.</span>
+                <span>5 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+  <!-- The thumbnail container now holds an inline preview video instead of a static link -->
+  <div class="thumbnail">
+    <video class="thumbnail-video" muted loop playsinline poster="resources/Pic5.jpg">
+      <source src="resources/netflix-preview.mp4" type="video/mp4">
+    </video>
+  </div>
+  
+  <div class="details">
+    <div class="profile">
+      <img src="https://yt3.ggpht.com/3b73AYEMMfa3SX5KJMeygio9smTPvrPrpicuQZbfQ_2DN7dV_ApiRM4CdYjSprEy1YYvt_9b=s176-c-k-c0x00ffffff-no-rj-mo" alt="Netflix Profile">
+    </div>
+    <div class="video-details">
+      <p>How to sign up and start watching TV Shows on Netflix</p>
+      <div class="posted-by">
+        <span>Netflix</span>
+      </div>
+      <div class="views-date">
+        <span>203k Views</span>
+        <span>•</span>
+        <span>2 days ago</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video0.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic25.jpg" alt="Godbody">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video0.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.googleusercontent.com/0QWhmFad2_Md9b4w4vNI9uBZuahM8z-yjb_ribuXYm0O4B7-aaRncInlJ591vt2lqFQhQRDm=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            </div>
+            <div class="video-details">
+              <p>Godbody</p>
+              <div class="posted-by">
+                <span>Blxckie</span>
+              </div>
+              <div class="views-date">
+                <span>1.3M Views</span>
+                <span>.</span>
+                <span>2 years ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video07.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic7.jpg" alt="Porsce GT3 RS vs McLaren 720s vs Ferrari SF90 Drag Race">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video07.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/-PtulUvAuaVV3-Wqix3BuogI8ql9c5braOWPScH1KKf0V0-DeSv-h2rZpi7K9K_kYpw33zH9=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            </div>
+            <div class="video-details">
+              <p>Porsce GT3 RS vs McLaren 720s vs Ferrari SF90 Drag Race</p>
+              <div class="posted-by">
+                <span>Carwow</span>
+              </div>
+              <div class="views-date">
+                <span>435k Views</span>
+                <span>.</span>
+                <span>4 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video08.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic8.jpg" alt="Tesla S vs Ferrari SFF90 vs Lamborghini SVJ Drag Race">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video08.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/-PtulUvAuaVV3-Wqix3BuogI8ql9c5braOWPScH1KKf0V0-DeSv-h2rZpi7K9K_kYpw33zH9=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            </div>
+            <div class="video-details">
+              <p>Tesla S vs Ferrari SFF90 vs Lamborghini SVJ Drag Race</p>
+              <div class="posted-by">
+                <span>Carwow</span>
+              </div>
+              <div class="views-date">
+                <span>370k Views</span>
+                <span>.</span>
+                <span>1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video9.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic02.jpg" alt="Introduction to Web Development - Workshop 1">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video9.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/IkYhbAbSKvy-EzdsDQy61LG1jR9a3TDTdBt94AHaUnQusAUbkJYxhaVTQkBUXMa7V6YOE311Vg=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            </div>
+            <div class="video-details">
+              <p>Introduction to Web Development - Workshop 1</p>
+              <div class="posted-by">
+                <span>Zaio</span>
+              </div>
+              <div class="views-date">
+                <span>5k Views</span>
+                <span>.</span>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video10.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic00.jpg" alt="Manchester City | Champions of England Again">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video10.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/d69oFqtdJbgwN6mZCV5bVITrhhoLS9p0a9Q9PuZ3vTySg2oeEJjyhUZ3G91GfktxdlmNT9Qhhw=s68-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="video-details">
+              <p>Manchester City | Champions of England Again</p>
+              <div class="posted-by">
+                <span>ManCity</span>
+              </div>
+              <div class="views-date">
+                <span>22M Views</span>
+                <span>.</span>
+                <span>2 years ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video04.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic03.jpg" alt="PSG VS Arsenal | Champions League Final | Budapest">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video04.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/ytc/AIdro_lzayaNdDoCV3pc6hhSYTsZWdZX4dPFU6IA8JliY0LgEeEo=s68-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="video-details">
+              <p>PSG VS Arsenal | Champions League Final | Budapest</p>
+              <div class="posted-by">
+                <span>Champions League</span>
+              </div>
+              <div class="views-date">
+                <span>204M Views</span>
+                <span>.</span>
+                <span>1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video11.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic04.jpg" alt="Power Book IV | Season 3 Trailer|Starz">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video11.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/OFx7BtnhZL830Na9IF9JFhUgD7O7HVfyVPlNABZ8vpGNc76TMxa20h7K7qj1oS7WavS7HGAU=s68-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="video-details">
+              <p>Power Book IV | Season 3 Trailer|Starz</p>
+              <div class="posted-by">
+                <span>Starz</span>
+              </div>
+              <div class="views-date">
+                <span>37k Views</span>
+                <span>.</span>
+                <span>1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video12.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic23.jpg" alt="Get to know Lucasraps | Music Journey">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video12.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.googleusercontent.com/DmAvgCHt_zro4NYwXm_E_NNDCcnXAAC95cb1lMSGUEeNnTkRLGMW_A4DQkPQvNPot7NuNwI8=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            </div>
+            <div class="video-details">
+              <p>Get to know Lucasraps|Music Journery|How he mt his idols</p>
+              <div class="posted-by">
+                <span>spxceimpact</span>
+              </div>
+              <div class="views-date">
+                <span>3k Views</span>
+                <span>.</span>
+                <span>2 months ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video0.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic24.jpg" alt="Excellent (official Visualizer)">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video0.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.ggpht.com/ytc/AIdro_llPlK76qJ3vTfaeS0kmTk8L_1a-Ux7kWoMopedNGwzEK4=s68-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+            <div class="video-details">
+              <p>Excellent (official Visualizer)</p>
+              <div class="posted-by">
+                <span>Che</span>
+              </div>
+              <div class="views-date">
+                <span>1.3M Views</span>
+                <span>.</span>
+                <span>1 year ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="thumbnail">
+            <a href="videos/video13.mp4" target="_blank" aria-label="Open video in new tab">
+              <img class="thumbnail-img" src="resources/Pic6.jpg" alt="SMA (feat. Rowlene)">
+            </a>
+
+             <video class="preview-video active" muted loop>
+               <source src="videos/video13.mp4" type="video/mp4">
+             </video>
+          </div>
+          <div class="details">
+            <div class="profile">
+              <img src="https://yt3.googleusercontent.com/pwombASY5CLB1IceFBpsuCgJxGBhp9WkU_ojYScojXZVNPfkO4nys5a8eW9MSWNhbWAepsH5=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+            </div>
+            <div class="video-details">
+              <p>SMA (feat. Rowlene)</p>
+              <div class="posted-by">
+                <span>Nasty C</span>
+              </div>
+              <div class="views-date">
+                <span>23M Views</span>
+                <span>.</span>
+                <span>4 years ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+         </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
